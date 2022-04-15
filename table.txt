@@ -1,0 +1,23 @@
+Extra large array times
+insert 969.9314 ms
+append 4.0458 ms
+
+Large array times
+insert 10.0756 ms
+append 776.1 μs
+
+Medium array times
+insert 222.5 μs
+append 184.3 μs
+
+Small array times
+insert 87.4 μs
+append 119 μs
+
+Tiny array times
+insert 47.5 μs
+append 112.9 μs
+
+The append function scales better. It runs longer when dealing with smaller arrays
+than insert. When dealing with larger arrays, append runs faster than insert.
+Based on the times listed, append is constant and insert is linear.
